@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: cyan;
+}
+#semaforo{
+  width: 390px;
+  height: 700px;
+  background-color: black;
+  margin:0 auto;
+}
+.luz{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top:40px;
+  margin-left: 90px;
+  border-radius: 50%;
+}
+#rojo{
+  background-color: red;
+}
+#amarillo{
+  background-color: yellow;
+}
+#verde{
+  background-color: green;
+}
+@media screen and (max-width:1200px){
+  #rojo{
+    opacity: 0.5;
+  }
+}
+@media screen and (max-width:787px){
+#amarillo{
+  opacity: 0.5;
+}
+}
+@media screen and (min-width:1200px){
+#amarillo{
+  opacity: 0.5;
+}
+}
+@media screen and (max-width:320px){
+#verde{
+opacity: 0.5;
+}
+}
+@media screen and (min-width:787px){
+#verde{
+opacity: 0.5;
+}
+}

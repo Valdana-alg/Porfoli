@@ -1,0 +1,143 @@
+body{
+  background-image: url(img/pare.jpeg);
+}
+.pelo{
+  width:450px;
+  height:600px;
+  background-color: #000;
+  margin: 50px auto;
+  border-radius: 50% 50% 50% 50% / 31% 32% 68% 69% ;
+  position: relative;
+}
+.cara{
+  width:400px;
+  height:450px;
+  background-color: #EDC59F;
+  border-radius:51% 49% 48% 52% / 39% 37% 63% 61% ;
+  position: absolute;
+  border: 20px solid #000;
+}
+.ceja{
+  width:150px;
+  height:100px;
+  border:5px solid #000;
+  border-radius: 50%;
+border-bottom:  5px solid transparent;
+border-left:  10px solid transparent;
+border-right:  4px solid transparent;
+position: relative;
+float: left;
+top: 130px;
+left:35px;
+}
+.ceja.i{
+  border-left:  4px solid transparent;
+  border-right:  10px solid transparent;
+  margin-right: 65px;
+}
+.ojos{
+  position: absolute;
+  width: 400px;
+  z-index: 10;
+  left:70px;
+  top:150px;
+}
+.ojo{
+  background-color: #fff;
+  position: relative;
+  width:100px;
+  height:80px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 60px;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-top: 8px solid #000;
+  border-bottom:  5px solid #000;
+}
+.ojo_externo{
+  width:60px;
+  height: 60px;
+  background-color: #679B12;
+  border-radius: 50%;
+  margin-top: 9px;
+  margin-left: 20px;
+  border: 3px solid #000;
+}
+.ojo_interno{
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.brillo{
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: -8px;
+  margin-left: 8px;
+}
+.flequillo{
+  width:400px;
+  height:200px;
+  background-color: #000;
+  border-radius:53% 47% 0% 100% / 55% 79% 21% 45% ;
+  position: absolute;
+  z-index: 50;
+  margin-top: -2px;
+}
+.nariz{
+  width: 100px;
+  height:100px;
+clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  border-right: 10px solid #DCAD87;
+  margin-top: 240px;
+  margin-left: 110px;
+}
+.boca{
+  width: 220px;
+  height: 90px;
+  background-color: #620000;
+  margin-top: -7px;
+  margin-left: 95px;
+  clip-path:circle(50% at 50% 0);
+}
+.dientes{
+  width: 220px;
+  height: 25px;
+  background-color: #fff
+}
+.colmillo{
+  width: 30px;
+  height: 30px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: #fff;
+  -moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+float: left;
+margin-left: 38px;
+margin-right: 42px;
+margin-top: 20px;
+}
+.lengua{
+  width: 200px;
+  height: 90px;
+  margin-left: 5px;
+  background-color: #CC0000;
+  clip-path: circle(50% at 50% 95%);
+}
+.cuerpo{
+  width: 350px;
+  height: 400px;
+  background-color: #004E00;
+  position: absolute;
+  margin-left: 380px;
+  margin-top: -190px;
+  border-radius: 49% 51% 100% 0% / 100% 100% 0% 0% ;
+}
